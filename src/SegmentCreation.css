@@ -1,0 +1,74 @@
+/* Center the container on the page */
+.segment-creation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  /* Container styling */
+  .segment-creation-container form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Title styling */
+  .segment-creation-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input styling */
+  .segment-creation-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    background-color: #f9fafb;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+  
+  .segment-creation-container input:focus {
+    border-color: #9ca3af;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .segment-creation-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #4a5568;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .segment-creation-container button:hover {
+    background-color: #2d3748;
+  }
+  
+  /* Add responsive spacing */
+  @media (max-width: 480px) {
+    .segment-creation-container form {
+      padding: 1.5rem;
+    }
+  
+    .segment-creation-container h2 {
+      font-size: 1.6rem;
+    }
+  }
+  
